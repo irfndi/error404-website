@@ -1,0 +1,84 @@
+.container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e0e0e0; /* Light grey background for retro feel */
+  font-family: 'Courier New', monospace; /* Retro font */
+  text-shadow: 2px 2px 0px #c0c0c0; /* Subtle text shadow for depth */
+}
+
+.main {
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8; /* Slightly lighter main area */
+  border: 2px dashed #999; /* Dashed border for retro box effect */
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #b0b0b0; /* Stronger box shadow */
+}
+
+.title {
+  font-size: 3rem; /* Larger title */
+  margin-bottom: 1rem; /* Less margin */
+  text-align: center;
+  color: #333; /* Darker title color */
+  letter-spacing: 0.1em; /* Letter spacing for retro look */
+  text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+.description {
+  line-height: 1.6; /* Increased line height */
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2rem; /* Less margin */
+  color: #555; /* Slightly darker description color */
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 2rem; /* Less margin */
+}
+
+.card {
+  padding: 1.5rem 2rem; /* More horizontal padding */
+  border: 2px solid #555; /* Stronger border */
+  border-radius: 0; /* Square borders for retro cards */
+  margin: 1rem;
+  text-align: center; /* Center text in cards */
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: #fff; /* White card background */
+  box-shadow: 3px 3px 5px #ccc; /* Card shadow */
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  background-color: #333; /* Dark background on hover */
+  color: #fff; /* White text on hover */
+  border-color: #333; /* Dark border on hover */
+  box-shadow: 3px 3px 5px #999; /* Hover shadow */
+}
+
+.card h2 {
+  margin: 0 0 0.5rem 0; /* Less margin under h2 */
+  font-size: 1.8rem; /* Slightly larger h2 */
+}
+
+.card p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4; /* Slightly tighter line height in paragraphs */
+  color: #777; /* Lighter paragraph color */
+}
