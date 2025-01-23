@@ -24,19 +24,26 @@
 }
 
 .title {
-  font-size: 3rem; /* Larger title */
-  margin-bottom: 1rem; /* Less margin */
+  font-size: 8rem; /* Even larger title */
+  margin-bottom: 0.5rem; /* Less margin */
   text-align: center;
   color: #333; /* Darker title color */
   letter-spacing: 0.1em; /* Letter spacing for retro look */
   text-transform: uppercase; /* Uppercase for emphasis */
 }
 
-.description {
-  line-height: 1.6; /* Increased line height */
-  font-size: 1.1rem;
+.subtitle {
+  font-size: 3rem; /* Larger subtitle */
+  margin-bottom: 2rem;
   text-align: center;
-  margin-bottom: 2rem; /* Less margin */
+  color: #555;
+}
+
+.description {
+  line-height: 2.0; /* Increased line height */
+  font-size: 1.7rem; /* Slightly larger description font */
+  text-align: center;
+  margin-bottom: 3rem; /* Adjusted margin */
   color: #555; /* Slightly darker description color */
 }
 
